@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+   
+    <id>katarangepackage</id>
+    
+    <version>0.1.0</version>
+
+    <title>KataRangePackage (Install)</title>
+    <authors>
+      Vladimir González, Justin Caamaño
+    </authors>
+    <!-- projectUrl is required for the community feed -->
+    <projectUrl>https://github.com/mrvladimir15/INS368L-IDS345L-ChocolateyKataRange</projectUrl>
+
+    <tags>katarangepackage</tags>
+    <summary>Package for executing functions related to intervales or ranges with a user interface</summary>
+    <description>Application developed using the latest Python version until the date (July 6, 2022) and tested using Pytest. </description>
+
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <file src="src\dist\**" target="dist" />
+  </files>
+</package>
